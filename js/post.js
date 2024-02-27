@@ -32,3 +32,4 @@ function displayPosts(posts) {
 
 
 loadPosts();
+

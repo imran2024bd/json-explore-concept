@@ -1,10 +1,10 @@
 const user = { id: 1 , name: 'Gorib Aamir' , job: 'actor'};
 
 // Javascript Object Notation ( JSON )
-const stringified = JSON.stringify(user);
+const stringified = JSON.stringify(user.name);
 // console.log(user);
 // { id: 1, name: 'Gorib Aamir', job: 'actor' }
-// console.log(stringified);
+console.log(stringified);
 // {"id":1,"name":"Gorib Aamir","job":"actor"}
 
 
@@ -22,14 +22,14 @@ const shop ={
     isNew: false
 };
 
-console.log(shop);
-console.log(typeof shop); // object
+// console.log(shop);
+// console.log(typeof shop); // object
 
-// to convert JSON
-const shopJSON = JSON.stringify(shop);
-console.log(shopJSON);
-console.log(typeof shopJSON); // string
-// to convert original object
-const shopObject = JSON.parse(shopJSON);
-console.log(shopObject);
-console.log(typeof shopObject);  // object
+// // to convert JSON
+// const shopJSON = JSON.stringify(shop);
+// console.log(shopJSON);
+// console.log(typeof shopJSON); // string
+// // to convert original object
+// const shopObject = JSON.parse(shopJSON);
+// console.log(shopObject);
+// console.log(typeof shopObject);  // object
